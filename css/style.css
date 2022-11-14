@@ -1,0 +1,616 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    
+}
+.mr{
+    margin: 0 !important;
+}
+ul li{
+    text-decoration: none;
+}
+.clr{
+    clear: both;
+}
+.container{
+    width: 1250px;
+    margin: 0 auto;
+}
+/* header part start */
+#header_part{
+    width: 100%;
+    background: #685b0459;
+    position: fixed;
+    top: 0;
+    left: 0;
+   z-index: 999;    
+    
+}
+
+.logo_menu_part{
+    
+    
+}
+.logo{
+    width: 150px;
+    float: left;
+}
+
+.menu{
+    width: 1100px;
+    text-align: right;
+    line-height: 110px;
+    float: left;
+}
+.menu ul li{
+    display: inline-block;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    
+}
+.menu ul li a{
+    padding-left: 30px;
+    color: #f1efeb;
+    font-size: 21px;
+    font-weight: 700;
+    /* text-transform: uppercase; */
+    font-family: 'Gentium Book Basic', serif;
+
+}
+/* header part end */
+
+
+
+
+/* banner part start */
+#banner_part{
+    background-image: url(../images/banner.jpg);
+    padding-top: 235px;
+    padding-bottom: 145px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner_text{
+    text-align: center;
+}
+.banner_text h1{
+    color: #f1efeb;
+    font-size: 90px;
+    font-weight: 400;
+    font-family: 'Yeseva One', cursive;
+    padding: 0 78px;
+}
+.banner_text img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0 0px;
+}.banner_item a{
+    margin-right: 40px;
+   text-decoration: none;
+}
+.banner_item{
+    text-align: center;
+}
+.banner_item a span{
+    border: 1px solid #2a2829b6;
+    color: #f1efeb;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+.banner_item a span{
+    background: #231e165d;
+}
+.banner_item a i{
+    color:#f1efeb;
+    border: 1px solid #e4e1cd;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+/* banner part start */
+
+
+
+/* service part start */
+#service_part{
+    padding: 80px 0;
+    background: #edf2f2;
+}
+.service_items{
+
+}
+.service_text{
+    width: 587.5px;
+    text-align: center;
+    float: left;
+    margin-right: 60px;
+}
+.banner_text :last-child{
+ margin-top: 55px;
+}
+.service_text h3{
+    color: #cc9900;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Yeseva One', cursive;
+}
+.service_text p{
+    color: #4c4c4c;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 65px;
+}
+.service_text img{
+    margin-top: 18px;
+    margin-bottom: 30px;
+}
+
+.service_item{
+    width: 587.5px;
+    float: left;
+}
+/* service part start */
+
+
+/* bg part start */
+#bg_part{
+    padding: 100px 0;
+    background-image:url(../images/pata.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.bg_items{
+}
+.blank_div{
+    width: 587.5px;
+    float: left;
+}
+.fine_div{
+    padding: 80px 0;
+    background: #1312116c;
+    width: 587.5px;
+    float: left;
+    text-align: center;
+    margin-left: 640px;
+}
+.fine_div h3{
+    color: #f1efeb;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Yeseva One', cursive;
+}
+.fine_div p{
+    color: #f1efeb;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 65px;
+}
+.fine_div img{
+margin-top: 20px;
+margin-bottom: 32px;
+
+}
+.fine_items{
+    margin-top: 70px;
+    float: left;
+    text-align: center;
+}
+.fine_item{
+    width: 149.17px;
+    margin-right: 20px;
+    padding-left: 20px;
+    
+}
+.fine_item img{
+    width: 100%;
+}
+
+/* bg part end */
+
+
+/* order part start */
+#order_part .container{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+#order_part{
+    padding: 100px 0;
+    background: #f0f4f4;
+}
+
+.order_menu_part{
+
+}
+/* .orders_items{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+    
+} */
+.order_menu{
+    
+}
+
+
+
+.order_item{
+    width: 430px;
+    text-align: center;
+}
+.order_item{
+    margin-top: 60px;
+}
+.order_item h3{
+   
+    color: #cc9900;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Yeseva One', cursive;
+}
+.order_item img{
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.order_menu{
+    width: 430px;
+    text-align: center;
+}
+/* .order_item :last-child{
+    color: #cc9900;
+    font-size: 21px;
+    font-weight: 400;
+    font-family: 'Yeseva One', cursive;
+    margin-right: 350px;
+} */
+/* .order_item .left{
+    
+    float: left;
+   
+}
+.order_item .right{
+   
+    float: right;
+    
+} */
+.order_item .right h3{
+    color: #cc9900;
+    font-size: 21px;
+    font-weight: 400;
+    font-family: 'Yeseva One', cursive;
+    
+}
+.order_item .left h3{
+    color: #cc9900;
+    font-size: 21px;
+    font-weight: 400;
+    font-family: 'Yeseva One', cursive;
+    
+}
+.order_text p{
+    color: #575757;
+    font-size:16px;
+    font-weight: 400;
+    font-family: 'Yeseva One', cursive;
+    margin-top: 10px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.orser_text{
+    position: relative;
+}
+.orser_text ::after{
+    position: absolute;
+    height: 1px;
+    width: 430px;
+    content: "";
+    background:#cc9900;
+    top: 100%;
+    left:0%;
+}
+.orser03{
+    margin-top: 48px;
+}
+.orser02{
+    margin-top: 48px;
+}
+.orser02{
+    position: relative;
+}
+.orser02::after{
+    position: absolute;
+    height: 1px;
+    width: 430px;
+    content: "";
+    background:#cc9900;
+    top: 100%;
+    left:0%;
+}
+
+.orser03{
+    position: relative;
+}
+.orser03::after{
+    position: absolute;
+    height: 1px;
+    width: 430px;
+    content: "";
+    background:#cc9900;
+    top: 100%;
+    left:0%;
+}
+/* .order_menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+} */
+
+
+
+
+
+
+
+
+/* order part end */
+
+
+
+/* kabab part start */
+#kabab_part{
+    padding: 100px 0;
+    background-image: url(../images/kabab.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.kabab_img_text_part{
+    text-align: center;
+    width: 805px;
+    background: rgba(0, 0, 0, 0.353);
+    margin-left: 300px;
+}
+.kabab_text h3{
+    
+    color: #e4e1cd;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Yeseva One', cursive;
+}
+.kabab_text img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.kabab_text p{
+    line-height: 30px;
+    color: #e4e1cd;
+    font-size: 21px;
+    font-weight: 400;
+    font-family: 'Yeseva One', cursive;
+    padding: 0 200px;
+    margin-bottom: 40px;
+}
+.kabab_text span{
+    color: #e4e1cd;
+    font-size: 21px;
+    font-weight: 400;
+    font-family: 'Yeseva One', cursive;
+}
+
+/* kabab part end */
+
+
+
+/* right food part start */
+ #right_food_part{
+    padding: 100px 0;
+    background: #fff;
+ }
+ .food_item1{
+    width: 270px;
+    float: left;
+    margin-right: 30px;
+ }
+ .food_item1 img{
+    width: 100%;
+ }
+ .food_item2 img{
+    width: 100%;
+ }
+ .food_item2{
+    width: 270px;
+    float: left;
+ }
+ .food_item3{
+    width: 430px;
+    float: left;
+    margin-left: 100px;
+    margin-right: 100px;
+ }
+ .food_item3 h3{
+    color: #cc9900;
+    font-size:36px;
+    font-weight: 400;
+    font-family: 'Yeseva One', cursive;
+ }
+ .food_item3{
+    text-align: center;
+ }
+ .food_item3 img{
+    margin-top: 20px;
+    margin-bottom: 30px;
+ }
+ .food_item3 p{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 55px;
+ }
+ .food_item3 span p{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding: 0 55px;
+ }
+ .name_sss{
+    width: 200px;
+    float: left;
+ }
+ .email_sss{
+    width: 200px;
+    float: left;
+ }
+ .name_sss input{
+    margin: 10px 0;
+ }
+ .email_sss input{
+    margin: 10px 0;
+ }
+.name_sss h2{
+    margin-right:127px;
+    color: #cc9900;
+    font-size: 14px;
+    font-weight: 900;
+    font-family: 'Open Sans', sans-serif;
+}
+.email_sss h2{
+    margin-right:127px;
+    color: #cc9900;
+    font-size: 14px;
+    font-weight: 900;
+    font-family: 'Open Sans', sans-serif;
+}
+.bookss a{
+    border: 1px solid #2a2829b6;
+    background: #cc9900;
+    color: #edf2f2;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+.bookss a{
+    margin-top: 30px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* right food part end */
+
+
+
+
+/* last part start */
+#last_parts{
+    padding: 100px 0;
+    background: #191919;
+}
+.about_opening_locatiion{
+    text-align: center;
+
+}
+.aboutssss{
+    width: 370px;
+}
+.aboutssss img{
+margin-top: 20px;
+}
+.aboutssss h3{
+    color: #fff;
+    font-size:28px;
+    font-weight: 400;
+    font-family: 'Yeseva One', cursive;
+}
+.aboutssss p{
+    color: #fff;
+    font-size:16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 67px;
+    margin-top: 20px;
+}
+.aboutssss{
+    float: left;
+}
+.opening_hours{
+    float: left;
+}
+.our_location{
+    float: left;
+}
+.opening_hours{
+    width: 230px;
+}
+.opening_hours{
+    margin-left: 100px;
+    margin-right: 170px;
+}
+.opening_hours img{
+    margin-top: 20px;
+
+}
+.opening_hours h3{
+    color: #fff;
+    font-size:28px;
+    font-weight: 400;
+    font-family: 'Yeseva One', cursive; 
+}
+.opening_hours h2{
+    color: #fff;
+    font-size:16px;
+    font-weight: 900;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+}
+.opening_hours span h2{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.our_location{
+    width: 230px;
+}
+.our_location img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.our_location h3{
+    color: #fff;
+    font-size:28px;
+    font-weight: 400;
+    font-family: 'Yeseva One', cursive;
+}
+.our_location h2{
+    color: #fff;
+    font-size:16px;
+    font-weight: 900;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 12px;
+}
+
+
+/* last part end */
+/* kabab part start */
+/* kabab part end */
